@@ -7,19 +7,19 @@ export default function Blog() {
       id: 1,
       date: "10 February 2022",
       title: "Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis",
-      image: "/blog1.jpeg",
+      image: "./blog1.jpeg",
     },
     {
       id: 2,
       date: "10 February 2022",
       title: "Morbi Sodales Tellus Elit, In Blandit Risus Suscipit A",
-      image: "/blog2.jpeg",
+      image: "./blog2.jpeg",
     },
     {
       id: 3,
       date: "10 February 2022",
       title: "Curabitur rutrum velit ac congue malesuada",
-      image: "/blog3.jpeg",
+      image: "//blog3.jpeg",
       tag: "Mamas Recipes",
     },
   ]

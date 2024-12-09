@@ -43,7 +43,7 @@ export default function About() {
             {/* About 1 Image - Takes Full Row */}
             <div className="relative w-full h-64 rounded-lg overflow-hidden">
               <Image
-                src="/about1.png"
+                src="./about1.png"
                 alt="Delicious food"
                 layout="fill"
                 objectFit="cover"
@@ -55,7 +55,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-6">
               <div className="relative w-full h-64 rounded-lg overflow-hidden">
                 <Image
-                  src="/about2.png"
+                  src="./about2.png"
                   alt="Delicious food"
                   layout="fill"
                   objectFit="cover"

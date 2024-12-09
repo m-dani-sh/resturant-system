@@ -6,49 +6,49 @@ const menuItems = [
     name: 'Lettuce Leaf',
     description: 'Lacus nisi, et ac dapibus velit in consequat.',
     price: 12.55,
-    image: '/menu2.jpeg',
+    image: './menu2.jpeg',
   },
   {
     name: 'Fresh Breakfast',
     description: 'Lacus nisi, et ac dapibus velit in consequat.',
     price: 14.55,
-    image: '/menu4.jpeg',
+    image: './menu4.jpeg',
   },
   {
     name: 'Mild Butter',
     description: 'Lacus nisi, et ac dapibus velit in consequat.',
     price: 20.55,
-    image: '/menu6.jpeg',
+    image: './menu6.jpeg',
   },
   {
     name: 'Fresh Bread',
     description: 'Lacus nisi, et ac dapibus velit in consequat.',
     price: 12.55,
-    image: '/menu8.jpeg',
+    image: './menu8.jpeg',
   },
   {
     name: 'Glow Cheeze',
     description: 'Lacus nisi, et ac dapibus velit in consequat.',
     price: 12.55,
-    image: '/menu3.jpeg',
+    image: './menu3.jpeg',
   },
   {
     name: 'Italian Pizza',
     description: 'Lacus nisi, et ac dapibus velit in consequat.',
     price: 14.55,
-    image: '/menu5.jpeg',
+    image: './menu5.jpeg',
   },
   {
     name: 'Slice Beef',
     description: 'Lacus nisi, et ac dapibus velit in consequat.',
     price: 12.55,
-    image: '/menu7.jpeg',
+    image: './menu7.jpeg',
   },
   {
     name: 'Mushroom Pizza',
     description: 'Lacus nisi, et ac dapibus velit in consequat.',
     price: 12.55,
-    image: '/menu9.jpeg',
+    image: './menu9.jpeg',
   },
 ];
 
@@ -77,14 +77,14 @@ const Menu = () => {
         <div className="flex justify-center items-center lg:flex-1 mb-8 lg:mb-0">
           <div className="w-full max-w-[400px] h-[400px] overflow-hidden rounded-lg relative">
             <Image
-              src="/menu1.png"
+              src="./menu1.png"
               alt="Menu Image 1"
               width={600}
               height={600}
               className="object-cover absolute inset-0 z-10"
             />
             <Image
-              src="/menu-side.png"
+              src="./menu-side.png"
               alt="Menu Image 2"
               width={600}
               height={600}
