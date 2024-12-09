@@ -9,7 +9,6 @@ import Chef from "@/components/Chef";
 import Menu from "./menu/page";
 import Blog from "./blog/page";
 import Reviews from "@/components/Reviews";
-import StatsSection from "@/components/Statssection";
 
 export default function Hero() {
   return (
