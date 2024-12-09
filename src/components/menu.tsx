@@ -52,7 +52,7 @@ const menuItems = [
   },
 ];
 
-const Menu = () => {
+const MenuItem = () => {
   return (
     <div className="bg-[#0D0D0D] text-white px-8 py-12">
       <h2 className="text-xl italic text-center text-[#FF9F0D]">Choose & Pick</h2>
@@ -96,13 +96,16 @@ const Menu = () => {
         {/* Right Side Grid for Menu Items */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:flex-1">
           {menuItems.map((item, index) => (
-            <div key={index} className="bg-[#1A1A1A] p-4 rounded-lg flex flex-col sm:flex-row items-center">
+            <div
+              key={index}
+              className="bg-[#1A1A1A] p-4 rounded-lg flex flex-col sm:flex-row items-center -ml-6"
+            >
               <Image
                 src={item.image}
                 alt={item.name}
                 width={80}
                 height={79}
-                className="rounded-lg object-cover mr-4 mb-4 sm:mb-0"
+                className="rounded-lg object-cover mb-4 sm:mb-0"
               />
               <div>
                 <h4 className="text-lg font-bold mb-1">{item.name}</h4>
@@ -117,4 +120,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MenuItem;

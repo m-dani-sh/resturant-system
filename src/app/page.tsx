@@ -6,9 +6,10 @@ import FoodCatergaery from "@/components/FoodCatergaery";
 import About from "./about/page";
 import WhyChooseUs from "@/components/Chooseus";
 import Chef from "@/components/Chef";
-import Menu from "./menu/page";
 import Blog from "./blog/page";
 import Reviews from "@/components/Reviews";
+import MenuItem from "@/components/menu";
+import { Stats } from "@/components/Stats";
 
 export default function Hero() {
   return (
@@ -84,7 +85,8 @@ export default function Hero() {
         <About />
         <FoodCatergaery />
         <WhyChooseUs />
-        <Menu />
+        <Stats/>
+        <MenuItem/>
         <Chef />
         <Reviews />
         <Blog />
