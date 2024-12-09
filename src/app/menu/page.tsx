@@ -9,7 +9,7 @@ export default function Page() {
       {/* Hero Section */}
       <div className="relative h-[300px] w-full">
         <Image
-          src="/.menu20.jpeg"
+          src="/.shop.jpeg"
           alt="Fresh vegetables and herbs"
           fill
           className="object-cover brightness-75"
@@ -47,7 +47,7 @@ export default function Page() {
             },
           ]}
           imagePosition="left"
-          image="/.menu21.jpeg"
+          image="/.menu21.jpg"
         />
 
         {/* Main Course */}
@@ -103,7 +103,7 @@ export default function Page() {
             },
           ]}
           imagePosition="left"
-          image="/.menu23.jpeg"
+          image="/.menu23.jpg"
         />
 
         {/* Drinks Section */}
@@ -132,7 +132,7 @@ export default function Page() {
             },
           ]}
           imagePosition="right"
-          image="/.menu24.jpeg"
+          image="/.menu24.jpg"
         />
 
         {/* Partners Section */}
