@@ -71,7 +71,7 @@ export default function Page() {
             },
           ]}
           imagePosition="right"
-          image="./menu22.jpeg"
+          image="./menu22.jpg"
         />
 
         {/* Stats Section */}
