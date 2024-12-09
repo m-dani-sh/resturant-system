@@ -51,29 +51,33 @@ export default function Page() {
         />
 
         {/* Main Course */}
+        <div className="mt-14">
         <MenuSection
-          title="Main Course"
-          items={[
-            {
-              name: "Cashew Chicken With Stir-Fry",
-              description: "Fresh chicken, cashew, veggies",
-              price: "$25",
-            },
-            {
-              name: "Vegetables & Green Salad",
-              description: "Mixed fresh vegetables with special sauce",
-              price: "$45",
-            },
-            {
-              name: "Spicy Vegan Potato Curry",
-              description: "Fresh potatoes with curry sauce",
-              price: "$35",
-            },
-          ]}
-          imagePosition="right"
-          image="./menu22.jpg"
-        />
+      
+      title="Main Course"
+      items={[
+        {
+          name: "Cashew Chicken With Stir-Fry",
+          description: "Fresh chicken, cashew, veggies",
+          price: "$25",
+        },
+        {
+          name: "Vegetables & Green Salad",
+          description: "Mixed fresh vegetables with special sauce",
+          price: "$45",
+        },
+        {
+          name: "Spicy Vegan Potato Curry",
+          description: "Fresh potatoes with curry sauce",
+          price: "$35",
+        },
+      ]}
+      imagePosition="right"
+      image="./menu22.jpg"
+    />
 
+        </div>
+       
         {/* Stats Section */}
         <Stats />
 
@@ -107,6 +111,7 @@ export default function Page() {
         />
 
         {/* Drinks Section */}
+        <div className="mt-14">
         <MenuSection
           title="Drinks"
           items={[
@@ -134,6 +139,7 @@ export default function Page() {
           imagePosition="right"
           image="./menu24.jpg"
         />
+        </div>
 
         {/* Partners Section */}
         <Partners />
