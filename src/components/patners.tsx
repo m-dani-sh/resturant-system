@@ -7,7 +7,7 @@ export function Partners() {
       <div className="grid grid-cols-3 gap-8 md:grid-cols-6">
         <div className="flex items-center justify-center">
           <Image
-            src="/.menu-logo-1.png"
+            src="./menu-logo-1.png"
             alt="Partner 1"
             width={100}
             height={100}
@@ -16,7 +16,7 @@ export function Partners() {
         </div>
         <div className="flex items-center justify-center">
           <Image
-            src="/.menu-logo-2.png"
+            src="./menu-logo-2.png"
             alt="Partner 2"
             width={100}
             height={100}
@@ -25,7 +25,7 @@ export function Partners() {
         </div>
         <div className="flex items-center justify-center">
           <Image
-            src="/.menu-logo-3.png"
+            src="./menu-logo-3.png"
             alt="Partner 3"
             width={100}
             height={100}
@@ -34,7 +34,7 @@ export function Partners() {
         </div>
         <div className="flex items-center justify-center">
           <Image
-            src="/.menu-logo-4.png"
+            src="./menu-logo-4.png"
             alt="Partner 4"
             width={100}
             height={100}
@@ -43,7 +43,7 @@ export function Partners() {
         </div>
         <div className="flex items-center justify-center">
           <Image
-            src="/.menu-logo-5.png"
+            src="./menu-logo-5.png"
             alt="Partner 5"
             width={100}
             height={100}
@@ -52,7 +52,7 @@ export function Partners() {
         </div>
         <div className="flex items-center justify-center">
           <Image
-            src="/.menu-logo-6.png"
+            src="./menu-logo-6.png"
             alt="Partner 6"
             width={100}
             height={100}

@@ -9,8 +9,8 @@ export default function Page() {
       {/* Hero Section */}
       <div className="relative h-[300px] w-full">
         <Image
-          src="/.shop.jpeg"
-          alt="Fresh vegetables and herbs"
+          src="./shop.jpeg"
+          alt="Header image"
           fill
           className="object-cover brightness-75"
           priority
@@ -47,7 +47,7 @@ export default function Page() {
             },
           ]}
           imagePosition="left"
-          image="/.menu21.jpg"
+          image="./menu21.jpg"
         />
 
         {/* Main Course */}
@@ -71,7 +71,7 @@ export default function Page() {
             },
           ]}
           imagePosition="right"
-          image="/.menu22.jpeg"
+          image="./menu22.jpeg"
         />
 
         {/* Stats Section */}
@@ -103,7 +103,7 @@ export default function Page() {
             },
           ]}
           imagePosition="left"
-          image="/.menu23.jpg"
+          image="./menu23.jpg"
         />
 
         {/* Drinks Section */}
@@ -132,7 +132,7 @@ export default function Page() {
             },
           ]}
           imagePosition="right"
-          image="/.menu24.jpg"
+          image="./menu24.jpg"
         />
 
         {/* Partners Section */}
