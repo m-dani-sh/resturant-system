@@ -85,7 +85,7 @@ export default function Hero() {
         <About />
         <FoodCatergaery />
         <WhyChooseUs />
-        <StatsSection />
+        {/* <StatsSection /> */}
         <Menu />
         <Chef />
         <Reviews />
