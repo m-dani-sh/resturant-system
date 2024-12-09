@@ -19,7 +19,7 @@ export default function ShoppingCart() {
       name: "Burger",
       price: 55.0,
       rating: 4,
-      image: "/shop2.jpeg",
+      image: "./shop2.jpeg",
       quantity: 1,
     },
     {
@@ -27,7 +27,7 @@ export default function ShoppingCart() {
       name: "Fresh Lime",
       price: 82.0,
       rating: 5,
-      image: "/shop4.jpeg",
+      image: "./shop4.jpeg",
       quantity: 1,
     },
     {
@@ -35,7 +35,7 @@ export default function ShoppingCart() {
       name: "Pizza",
       price: 97.0,
       rating: 3,
-      image: "/shop6.jpeg",
+      image: "./shop6.jpeg",
       quantity: 1,
     },
     {
@@ -43,7 +43,7 @@ export default function ShoppingCart() {
       name: "Chocolate Muffin",
       price: 45.0,
       rating: 4,
-      image: "/shop8.jpeg",
+      image: "./shop8.jpeg",
       quantity: 1,
     },
     {
@@ -51,7 +51,7 @@ export default function ShoppingCart() {
       name: "Chinese Butter",
       price: 97.0,
       rating: 3,
-      image: "/shop10.jpeg",
+      image: "./shop10.jpeg",
       quantity: 1,
     },
   ]
@@ -62,7 +62,7 @@ export default function ShoppingCart() {
       <div
         className="relative h-[200px] bg-cover bg-center"
         style={{
-          backgroundImage: "url('/shop.jpeg')",
+          backgroundImage: "url('./shop.jpeg')",
         }}
       >
         <div className="absolute inset-0 bg-black/60">

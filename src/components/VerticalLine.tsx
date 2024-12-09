@@ -14,7 +14,7 @@ const VerticalLine = () => {
         <div className="flex flex-col items-center gap-4">
           <Link href="https://facebook.com" target="_blank">
             <Image
-              src="/facebook-logo.png" // Replace with the actual Facebook icon path
+              src="./facebook-logo.png" // Replace with the actual Facebook icon path
               alt="Facebook"
               width={30}
               height={30}
@@ -23,7 +23,7 @@ const VerticalLine = () => {
           </Link>
           <Link href="https://twitter.com" target="_blank">
             <Image
-              src="/twiter-logo-final.png" // Replace with the actual Twitter icon path
+              src="./twiter-logo-final.png" // Replace with the actual Twitter icon path
               alt="Twitter"
               width={30}
               height={30}
@@ -32,7 +32,7 @@ const VerticalLine = () => {
           </Link>
           <Link href="https://third-social.com" target="_blank">
             <Image
-              src="/third-logo-final.jpeg" 
+              src="./third-logo-final.jpeg" 
               alt="Third Logo"
               width={30}
               height={30}

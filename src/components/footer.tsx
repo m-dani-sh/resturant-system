@@ -131,7 +131,7 @@ export default function Footer() {
             {[1, 2, 3].map((item) => (
               <div key={item} className="flex gap-3 items-center">
                 <Image
-                  src={`/footer${item}.jpeg`}
+                  src={`./footer${item}.jpeg`}
                   alt="Recent post"
                   width={60}
                   height={60}

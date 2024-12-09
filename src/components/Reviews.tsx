@@ -9,21 +9,21 @@ const testimonials = [
     author: "Alamin Hasan",
     role: "Food Specialist",
     rating: 4,
-    image: "/review1.jpeg"
+    image: "./review1.jpeg"
   },
   {
     content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     author: "Sara S.,",
     role: "Chef",
     rating: 5,
-    image: "/review2.jpeg"
+    image: "./review2.jpeg"
   },
   {
     content: "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sollicitudin erat non lectus fermentum, vel tempor orci malesuada. Morbi lacinia bibendum est, vitae fermentum erat.",
     author: "John Doe",
     role: "Food Enthusiast",
     rating: 3,
-    image: "/review3.jpeg"
+    image: "./review3.jpeg"
   },
   // Add more testimonials as needed
 ]

@@ -18,7 +18,7 @@ const Chef = () => {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
               <Image
-                src="/chef1.jpeg"
+                src="./chef1.jpeg"
                 alt="Chef 1"
                 layout="fill"
                 objectFit="cover"
@@ -31,7 +31,7 @@ const Chef = () => {
           <div className="col-span-1 md:col-span-1 lg:col-span-1">
             <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
               <Image
-                src="/chef2.jpeg"
+                src="./chef2.jpeg"
                 alt="Chef 2"
                 layout="fill"
                 objectFit="cover"
@@ -42,7 +42,7 @@ const Chef = () => {
           <div className="col-span-1 md:col-span-1 lg:col-span-1">
             <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
               <Image
-                src="/chef3-final.jpg"
+                src="./chef3-final.jpg"
                 alt="Chef 3"
                 layout="fill"
                 objectFit="cover"
@@ -53,7 +53,7 @@ const Chef = () => {
           <div className="col-span-1 md:col-span-1 lg:col-span-1">
             <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
               <Image
-                src="/chef4.jpg"
+                src="./chef4.jpg"
                 alt="Chef 4"
                 layout="fill"
                 objectFit="cover"

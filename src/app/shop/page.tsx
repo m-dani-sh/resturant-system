@@ -24,7 +24,7 @@ export default function ShopPage() {
       {/* Hero Banner */}
       <div className="relative h-[200px] w-full">
         <Image
-          src="/shop.jpeg"
+          src="./shop.jpeg"
           alt="Fresh vegetables and greens"
           className="object-cover"
           fill
@@ -45,7 +45,7 @@ export default function ShopPage() {
                   <div className="relative h-48 w-full overflow-hidden rounded-lg">
                     {/* Dynamically set image source */}
                     <Image
-                      src={`/shop${(index % 15) + 1}.jpeg`} // Dynamic image path
+                      src={`./shop${(index % 15) + 1}.jpeg`} // Dynamic image path
                       alt={product.name}
                       className="object-cover transition-transform group-hover:scale-105"
                       fill
@@ -116,7 +116,7 @@ export default function ShopPage() {
               <h2 className="text-lg font-semibold">Featured Product</h2>
               <div className="relative h-[200px] rounded-lg overflow-hidden">
                 <Image
-                  src="/shop16.jpeg"
+                  src="./shop16.jpeg"
                   alt="Featured product"
                   className="object-cover"
                   fill
@@ -133,7 +133,7 @@ export default function ShopPage() {
                     <div key={item} className="flex gap-4">
                       <div className="relative h-16 w-16 flex-shrink-0">
                         <Image
-                          src={`/shop${(item % 15) + 1}.jpeg`} // Dynamic image path for latest products
+                          src={`./shop${(item % 15) + 1}.jpeg`} // Dynamic image path for latest products
                           alt={`Latest product ${item}`}
                           className="object-cover rounded"
                           fill

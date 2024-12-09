@@ -94,7 +94,7 @@ const Header = () => {
             {/* Cart Icon */}
             <div onClick={handleCart} className="cursor-pointer">
               <Image
-                src="/cart.png"
+                src="./cart.png"
                 alt="Cart"
                 width={20}
                 height={20}

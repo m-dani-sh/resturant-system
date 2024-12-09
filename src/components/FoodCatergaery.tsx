@@ -13,10 +13,10 @@ const FoodCategory = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
-            "/food categary1-final.png",
-            "/food categary2-final.png",
-            "/food categary3.png",
-            "/food categary4.png",
+            "./food categary1-final.png",
+            "./food categary2-final.png",
+            "./food categary3.png",
+            "./food categary4.png",
           ].map((image, index) => (
             <div
               key={index}

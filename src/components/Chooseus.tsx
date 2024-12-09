@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
                     <div className="grid grid-cols-2 gap-4">
                         <div className="relative w-full h-48 rounded-lg overflow-hidden">
                             <Image
-                                src="/choose1.jpeg"
+                                src="./choose1.jpeg"
                                 alt="Food 1"
                                 layout="fill"
                                 objectFit="cover"
@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
                         </div>
                         <div className="relative w-full h-48 rounded-lg overflow-hidden">
                             <Image
-                                src="/choose2.jpeg"
+                                src="./choose2.jpeg"
                                 alt="Food 2"
                                 layout="fill"
                                 objectFit="cover"
@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
                     <div className="grid grid-cols-3 gap-4">
                         <div className="relative w-full h-48 rounded-lg overflow-hidden">
                             <Image
-                                src="/choose3.jpeg"
+                                src="./choose3.jpeg"
                                 alt="Food 3"
                                 layout="fill"
                                 objectFit="cover"
@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
                         </div>
                         <div className="relative w-full h-48 rounded-lg overflow-hidden">
                             <Image
-                                src="/choose4.jpeg"
+                                src="./choose4.jpeg"
                                 alt="Food 4"
                                 layout="fill"
                                 objectFit="cover"
@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
                         </div>
                         <div className="relative w-full h-48 rounded-lg overflow-hidden">
                             <Image
-                                src="/choose5.jpeg"
+                                src="./choose5.jpeg"
                                 alt="Food 5"
                                 layout="fill"
                                 objectFit="cover"
@@ -64,7 +64,7 @@ const WhyChooseUs = () => {
                     {/* Lower row with 1 image */}
                     <div className="relative w-full h-48 rounded-lg overflow-hidden">
                         <Image
-                            src="/choose6.jpeg"
+                            src="./choose6.jpeg"
                             alt="Food 6"
                             layout="fill"
                             objectFit="cover"
@@ -95,7 +95,7 @@ const WhyChooseUs = () => {
                         {/* Lunch Icon */}
                         <div className="flex flex-col items-center">
                             <Image
-                                src="/lunch.png"
+                                src="./lunch.png"
                                 alt="Lunch"
                                 layout="intrinsic"
                                 width={100}

@@ -44,7 +44,7 @@ export default function Hero() {
           <div className="relative w-full lg:w-1/2 flex items-center justify-center">
             {/* {/* Main Plate Image  */}
             <Image
-              src="/herosection1.png" 
+              src="./herosection1.png" 
               alt="Main Food Plate"
               width={500}
               height={500}
@@ -53,7 +53,7 @@ export default function Hero() {
 
             <div className="absolute top-28 right-12 lg:top-32 lg:right-20">
               <Image
-                src="/item2.png" // Replace with the second decorative image
+                src="./item2.png" // Replace with the second decorative image
                 alt="Decorative Item 2"
                 width={70}
                 height={70}
@@ -62,7 +62,7 @@ export default function Hero() {
             </div>
             <div className="absolute bottom-10 left-16 lg:bottom-12 lg:left-20">
               <Image
-                src="/item3.png" // Replace with the third decorative image
+                src="./item3.png" // Replace with the third decorative image
                 alt="Decorative Item 3"
                 width={50}
                 height={50}
@@ -71,7 +71,7 @@ export default function Hero() {
             </div>
             <div className="absolute bottom-28 right-16 lg:bottom-32 lg:right-20">
               <Image
-                src="/item4.png" // Replace with the fourth decorative image
+                src="./item4.png" // Replace with the fourth decorative image
                 alt="Decorative Item 4"
                 width={50}
                 height={50}
