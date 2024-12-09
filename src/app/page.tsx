@@ -51,32 +51,32 @@ export default function Hero() {
               className="rounded-full"
             />
 
-            <div className="absolute top-28 right-12 lg:top-32 lg:right-20">
+            {/* <div className="absolute top-28 right-12 lg:top-32 lg:right-20">
               <Image
                 src="./item2.png" // Replace with the second decorative image
                 alt="Decorative Item 2"
                 width={70}
                 height={70}
                 className="rounded-full"
-              />
-            </div>
+              /> */}
+            {/* </div> */}
             <div className="absolute bottom-10 left-16 lg:bottom-12 lg:left-20">
-              <Image
+              {/* <Image
                 src="./item3.png" // Replace with the third decorative image
                 alt="Decorative Item 3"
                 width={50}
                 height={50}
                 className="rounded-full"
-              />
+              /> */}
             </div>
             <div className="absolute bottom-28 right-16 lg:bottom-32 lg:right-20">
-              <Image
-                src="./item4.png" // Replace with the fourth decorative image
+              {/* <Image
+                src="./item4.png" 
                 alt="Decorative Item 4"
                 width={50}
                 height={50}
                 className="rounded-full"
-              />
+              /> */}
             </div>
           </div>
         </section>
