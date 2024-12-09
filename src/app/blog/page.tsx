@@ -19,7 +19,7 @@ export default function Blog() {
       id: 3,
       date: "10 February 2022",
       title: "Curabitur rutrum velit ac congue malesuada",
-      image: "//blog3.jpeg",
+      image: "./blog3.jpeg",
       tag: "Mamas Recipes",
     },
   ]

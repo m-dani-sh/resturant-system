@@ -9,7 +9,7 @@ export default function ShopDetails() {
       {/* Hero Banner */}
       <div className="relative h-48 bg-black">
         <Image
-          src="/shop.jpeg"
+          src="./shop.jpeg"
           alt="Shop Details Banner"
           width={1920}
           height={192}
@@ -26,7 +26,7 @@ export default function ShopDetails() {
           <div className="space-y-4">
             <div className="relative aspect-video overflow-hidden rounded-lg border">
               <Image
-                src="/shopdetail.jpeg"
+                src="./shopdetail.jpeg"
                 alt="Yummy Chicken Chup"
                 width={600}
                 height={400}
@@ -37,7 +37,7 @@ export default function ShopDetails() {
               {[1, 2, 3, 4].map((index) => (
                 <div key={index} className="relative aspect-video overflow-hidden rounded-lg border">
                   <Image
-                    src={`/shopdetail${index}.jpeg`} // Adjust image source based on index
+                    src={`./shopdetail${index}.jpeg`} // Adjust image source based on index
                     alt={`Thumbnail ${index}`}
                     width={150} // Increase width for vertical look
                     height={200} // Increase height to maintain aspect ratio
@@ -139,7 +139,7 @@ export default function ShopDetails() {
               <Card key={index}>
                 <div className="relative aspect-square overflow-hidden">
                   <Image
-                    src="/shop.jpeg"
+                    src="./shop.jpeg"
                     alt={`Similar Product ${index}`}
                     width={300}
                     height={300}
