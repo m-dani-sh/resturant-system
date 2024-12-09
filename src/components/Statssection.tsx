@@ -1,6 +1,6 @@
 import { ChefHat, UtensilsCrossed, Pizza } from 'lucide-react';
 
-export default function StatsSection() {
+export default function StatSection() {
   return (
     <div className="w-full bg-black/95 py-12 px-4">
       <div className="max-w-6xl mx-auto">
